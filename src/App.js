@@ -6,7 +6,9 @@ import './App.css';
 
 // import { UseEffectHasDependencies } from './components/UseEffectHasDenpendencies/UseEffectHasDependencies';
 
-import { UseEffectEmptyDependenciesFetchApi } from './components/UseEffectEmptyDependenciesFetchApi/UseEffectEmptyDependenciesFetchApi';
+// import { UseEffectEmptyDependenciesFetchApi } from './components/UseEffectEmptyDependenciesFetchApi/UseEffectEmptyDependenciesFetchApi';
+
+import { FetchApiAndUseSkeleton } from './components/FetchApiAndUseSkeleton/FetchApiAndUseSkeleton';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
 
       {/* <UseEffectHasDependencies /> */}
 
-      <UseEffectEmptyDependenciesFetchApi />
+      {/* <UseEffectEmptyDependenciesFetchApi /> */}
+
+      <FetchApiAndUseSkeleton />
     </>
   );
 }
